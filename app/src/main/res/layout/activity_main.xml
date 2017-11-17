@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:id="@+id/action_container"
+    android:background="@android:color/holo_green_light"
+    tools:context="com.tagflow.demo.MainActivity">
+
+<com.chyy.view.flowlayout.TagFlowLayout
+    android:id="@+id/id_flowlayout"
+    android:background="@android:color/holo_blue_light"
+    app:max_select="1"
+    app:max_line="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+
+</LinearLayout>
